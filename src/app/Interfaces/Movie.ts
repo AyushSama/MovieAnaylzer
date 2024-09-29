@@ -6,7 +6,7 @@ export interface Movie {
     big_image: string;
     genre: string[]; // Array of strings to hold genres
     thumbnail: string;
-    rating: number; // Consider changing to number if it will always be numeric
+    rating: string; // Consider changing to number if it will always be numeric
     id: string;
     year: number;
     imdbid: string;
